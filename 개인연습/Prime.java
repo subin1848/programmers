@@ -7,7 +7,8 @@ class Prime
 		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자를 입력하세요 : ");
 		int n = sc.nextInt();
-		for(int i=2; i<=n; i++)
+
+		for(int i=1; i<=n; i++)
 		{
 			if(n%i==0)
 			{
@@ -15,7 +16,8 @@ class Prime
 				break;
 			}
 			else 
-			{	System.out.println("소수입니다.");
+			{	
+				System.out.println("소수입니다.");
 				break;
 			}
 				
