@@ -10,7 +10,7 @@ class Light
 			{
 				for(int k = 1; k <= 24; k++)
 				{
-					light += 30000;
+					light += 300000;
 				}
 			}
 		}
