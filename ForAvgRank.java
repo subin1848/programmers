@@ -56,6 +56,7 @@ class ForAvgRank
 					classCount[i] = sc.nextInt();
 
 				} while (classCount[i] < 0 || classCount[i] > 100);
+
 			}
 
 			sum[i%count] += classCount[i];	//sum[출력된 반] += score[입력한 점수]	//
